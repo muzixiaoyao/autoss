@@ -1,0 +1,5 @@
+#!/bin/bash
+chmod +x /etc/rc.d/rc.local
+mv -f shadowsocks /opt/
+mv -f server_linux_386 /opt/
+mv -f rc.local /etc/
